@@ -1,7 +1,5 @@
-public class Soap  {
-    private final String type = "soap";
-    private final String name = "tiktak";
-    private final double weight = 12;
-    private final double volume = 4;
-
+public class Soap extends Product  {
+    public Soap(String name, String type, double volume) {
+        super(name, type, volume);
+    }
 }
